@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Introduction" id="introduction">
+
+    <p>
+        <img
+                src="https://preview.dragon-code.pro/the-dragon-code/deploy-operations.svg?brand=laravel&amp;mode=dark"
+                alt="%instance%"
+        />
+    </p>
+    <p>
+        <a href="%link-packagist%"><img src="%badge-stable%" alt="stable"/></a>
+        <a href="%link-repository%"><img src="%badge-downloads%" alt="downloads"/></a>
+        <a href="%link-workflows%"><img src="%badge-build%" alt="build"/></a>
+        <a href="license.topic"><img src="%badge-license%" alt="license"/></a>
+    </p>
+    <p>
+        ⚡
+        <control>Performing any actions during the deployment process</control>
+    </p>
+    <p>
+        Create specific classes for a one-time or more-time usage, that can be executed automatically after each
+        deployment.
+        Perfect for seeding or updating some data instantly after some database changes, feature updates, or perform any
+        actions.
+    </p>
+    <p>
+        This package is for you if...
+    </p>
+    <list>
+        <li>you regularly need to update specific data after you deploy new code</li>
+        <li>you often perform jobs after deployment</li>
+        <li>you sometimes forget to execute that one specific job and stuff gets crazy</li>
+        <li>your code gets cluttered with jobs that are not being used anymore</li>
+        <li>your co-workers always need to be reminded to execute that one job after some database changes</li>
+        <li>you often seed or process data in a migration file (which is a big no-no!)</li>
+    </list>
+</topic>

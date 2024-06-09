@@ -1,0 +1,38 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+<!--        <algolia-api-key>1830e628456a000ddfeb32941f42a78c</algolia-api-key>-->
+<!--        <algolia-id>K2N865FUBK</algolia-id>-->
+<!--        <algolia-index>laravel-lang</algolia-index>-->
+        <generate-canonicals>true</generate-canonicals>
+        <header-logo>logo.svg</header-logo>
+        <locale-code>en_US</locale-code>
+        <og-image>
+            https://raw.githubusercontent.com/TheDragonCode/art/main/splash/github.png
+        </og-image>
+        <color-preset>contrast</color-preset>
+        <primary-color>frozen</primary-color>
+        <web-root>https://deploy-operations.dragon-code.pro</web-root>
+        <enable-browser-edits>true</enable-browser-edits>
+        <browser-edits-url>
+            https://github.com/TheDragonCode/laravel-deploy-operations/edit/main/docs/
+        </browser-edits-url>
+        <custom-favicons>
+            favicon.svg,favicon.svg,favicon.svg,favicon.svg
+        </custom-favicons>
+    </variables>
+    <build-profile instance="deploy-operations">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+    <sitemap priority="0.5" change-frequency="weekly"/>
+    <footer>
+        <link href="https://github.com/TheDragonCode/laravel-deploy-operations">
+            GitHub
+        </link>
+        <link href="https://github.com/TheDragonCode/laravel-deploy-operations/issues">
+            Issues
+        </link>
+    </footer>
+</buildprofiles>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
+<vars>
+    <var name="badge-not-supported" value="badge-not-supported.svg"/>
+    <var name="badge-supported" value="badge-supported.svg"/>
+    <var name="command-operations" value="php artisan operations"/>
+    <var name="command-fresh" value="php artisan operations:fresh"/>
+    <var name="command-install" value="php artisan operations:install"/>
+    <var name="command-make:operation" value="php artisan make:operation"/>
+    <var name="command-refresh" value="php artisan operations:refresh"/>
+    <var name="command-reset" value="php artisan operations:reset"/>
+    <var name="command-rollback" value="php artisan operations:rollback"/>
+    <var name="command-status" value="php artisan operations:status"/>
+    <var name="command-upgrade" value="php artisan operations:upgrade"/>
+    <var name="config-filename" value="config/deploy-operations.php"/>
+    <var name="install-package" value="composer require dragon-code/laravel-deploy-operations"/>
+    <var name="team-name" value="The Dragon Code" />
+    <var name="year" value="2024" />
+    <var name="badge-stable" value="https://img.shields.io/github/v/release/TheDragonCode/laravel-actions?label=packagist&amp;style=flat-square" />
+    <var name="badge-build" value="https://img.shields.io/github/actions/workflow/status/TheDragonCode/laravel-actions/phpunit.yml?style=flat-square" />
+    <var name="badge-downloads" value="https://img.shields.io/packagist/dt/dragon-code/laravel-actions.svg?style=flat-square" />
+    <var name="badge-license" value="https://img.shields.io/packagist/l/dragon-code/laravel-deploy-operations.svg?style=flat-square" />
+    <var name="link-packagist" value="https://packagist.org/packages/dragon-code/laravel-deploy-operations" />
+    <var name="link-repository" value="https://github.com/TheDragonCode/laravel-deploy-operations" />
+    <var name="link-workflows" value="https://github.com/TheDragonCode/laravel-deploy-operations/actions" />
+</vars>
