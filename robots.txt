@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://deploy-operations.dragon-code.pro/sitemap.xml
